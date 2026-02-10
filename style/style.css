@@ -108,8 +108,12 @@ body {
   display: inline-block;
 }
 
+.wish-hbd span {
+  margin-right: 0.1em;
+}
+
 .idea-6 span {
-  font-size: 15rem;
+  font-size: 8rem;
 }
 
 .six {
