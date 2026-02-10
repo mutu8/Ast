@@ -347,9 +347,11 @@ body {
   }
 
   .four .text-box {
-    width: 90%;
-    font-size: 0.95rem;
-    padding: 10px 50px 10px 12px;
+    width: 95%;
+    max-width: 95%;
+    font-size: 0.9rem;
+    padding: 12px 48px 12px 12px;
+    box-sizing: border-box;
   }
 
   .text-box .fake-btn {
@@ -357,6 +359,10 @@ body {
     height: 32px;
     font-size: 15px;
     right: 8px;
+  }
+
+  .eight svg {
+    will-change: transform, opacity;
   }
 
   .five p {
@@ -413,8 +419,18 @@ body {
   }
 
   .four .text-box {
-    width: 92%;
+    width: 95%;
+    max-width: 95%;
     font-size: 0.85rem;
+    padding: 10px 45px 10px 10px;
+    box-sizing: border-box;
+  }
+
+  .text-box .fake-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    right: 6px;
   }
 
   .five p {
