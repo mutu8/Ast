@@ -13,6 +13,7 @@ body {
 .container {
   height: 100vh;
   width: 100vh;
+  max-width: 100vw;
   margin: 0 auto;
   text-align: center;
   visibility: hidden;
@@ -274,26 +275,104 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100vw;
+  }
+
+  .one {
+    font-size: 3rem;
+  }
+
+  .two {
+    font-size: 1rem;
+  }
+
+  .three {
+    font-size: 2rem;
+  }
+
+  .four .text-box {
+    width: 85%;
+    font-size: 1rem;
+    padding: 10px 50px 10px 12px;
+  }
+
+  .text-box .fake-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .five p {
+    font-size: 1.5rem;
+  }
+
+  .five .idea-5 {
+    font-size: 2.5rem;
+  }
+
+  .idea-6 span {
+    font-size: 5rem;
+  }
+
+  .wish-hbd {
+    font-size: 2em;
+  }
+
+  .wish h5 {
+    font-size: 1.3rem;
+  }
+
+  .six img {
+    max-width: 70%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .container {
-    width: 90%;
+    width: 100vw;
+  }
+
+  .one {
+    font-size: 2.5rem;
+  }
+
+  .two {
+    font-size: 0.9rem;
+  }
+
+  .three {
+    font-size: 1.8rem;
   }
 
   .four .text-box {
     width: 90%;
+    font-size: 0.95rem;
+    padding: 10px 50px 10px 12px;
   }
 
   .text-box .fake-btn {
-    right: 5px;
-    bottom: -38px;
+    width: 32px;
+    height: 32px;
+    font-size: 15px;
+    right: 8px;
+  }
+
+  .five p {
+    font-size: 1.3rem;
+  }
+
+  .five .idea-5 {
+    font-size: 2rem;
   }
 
   .idea-5 span {
-    display: block;
+    display: inline-block;
   }
 
   .idea-6 span {
-    font-size: 10rem;
+    font-size: 4rem;
   }
 
   .six .hat {
@@ -301,16 +380,64 @@ body {
     top: -20px;
   }
 
+  .six img {
+    max-width: 80%;
+  }
+
   .wish-hbd {
-    font-size: 2.3em;
+    font-size: 1.8em;
   }
 
   .wish h5 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
+    padding: 0 10px;
   }
 
   .nine p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: lighter;
+  }
+
+  .baloons img {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .one {
+    font-size: 2rem;
+  }
+
+  .three {
+    font-size: 1.5rem;
+  }
+
+  .four .text-box {
+    width: 92%;
+    font-size: 0.85rem;
+  }
+
+  .five p {
+    font-size: 1.1rem;
+  }
+
+  .five .idea-5 {
+    font-size: 1.7rem;
+  }
+
+  .idea-6 span {
+    font-size: 3rem;
+  }
+
+  .wish-hbd {
+    font-size: 1.5em;
+  }
+
+  .wish h5 {
+    font-size: 1rem;
+  }
+
+  .baloons img {
+    width: 100px;
   }
 }
